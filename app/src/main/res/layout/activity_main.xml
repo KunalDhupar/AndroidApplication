@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#EBF5FA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_vertical"
+        android:layout_marginTop="20dp"
+        android:text="Welcome To Capgemini"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1C1A19"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Please register or Sign-in"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#840D98"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#673AB7"
+            android:text="REGISTER" />
+
+        <Button
+            android:id="@+id/bt2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#22359E"
+            android:text="SIGN-IN"
+            app:iconTint="#03A9F4" />
+    </LinearLayout>
+
+</LinearLayout>
